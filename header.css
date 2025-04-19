@@ -58,7 +58,7 @@ refer{color:
     height: 420px;
     text-align: center;
     margin-top: 70px;
-    margin-right: -310px;
+    margin-right: -280px;
     visibility: hidden;
     z-index: 5;
 }
@@ -154,6 +154,7 @@ refer{color:
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .search-ft i:hover{
     .search-bgft{
