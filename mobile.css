@@ -1,0 +1,10 @@
+refer{color:
+    #f57316
+    #F0FFF0
+    #0E0E10
+}
+@media (max-width:900px){
+    .logo-pc{
+        visibility: hidden;
+    }
+}
