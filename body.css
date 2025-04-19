@@ -8,8 +8,6 @@ refer{color:
 }
 body{
     background-color: #2e3138;
-    margin: 0;
-    overflow: hidden;
 }
 .loading img{
     position: absolute;
