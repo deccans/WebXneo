@@ -187,3 +187,6 @@ refer{color:
     background-color: #F0FFF0;
     border: none ;
 }
+.search-box::placeholder{
+    color: #F0FFF0;
+}
