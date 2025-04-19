@@ -13,6 +13,7 @@ refer{color:
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 .logo-mb , .logo-pc{
     position: absolute;
@@ -57,7 +58,7 @@ refer{color:
     height: 420px;
     text-align: center;
     margin-top: 70px;
-    margin-right: -300px;
+    margin-right: -340px;
     visibility: hidden;
     z-index: 5;
 }
