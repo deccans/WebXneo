@@ -3,11 +3,6 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
-refer{color:
-    #f57316
-    #F0FFF0
-    #0E0E10
-}
 .header{
     position: fixed;
     top: 0;
@@ -64,6 +59,7 @@ refer{color:
     margin-top: 70px;
     margin-right: -340px;
     visibility: hidden;
+    z-index: 5;
 }
 .menu-ft ul li{
     display: flex;
@@ -175,6 +171,7 @@ refer{color:
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    z-index: 5;
 }
 .search-box{
     position: absolute;
