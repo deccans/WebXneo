@@ -66,4 +66,28 @@ refer{color:
     .footer-paragraph{
         font-size: 10PX;
     }
+    .gif-of-banner{
+        position: absolute;
+        width: 1000px;
+        left: 110px;
+    }
+    .banner{
+        height: 840px;
+        top: 100px;
+    }
+    .container{
+        top: 1350px;
+    }
+    .title-of-main-banner{
+        position: absolute;
+        left: 50%;
+        font-size: 50px;
+        top: 15%;
+    }
+    .description-of-main-banner{
+        position: absolute;
+        left: 50%;
+        font-size: 20px;
+        top: 50%;
+    }
 }
