@@ -7,4 +7,63 @@ refer{color:
     .logo-pc{
         visibility: hidden;
     }
+    .menu-ft-pc{
+        display: none;
+    }
+}
+@media (min-width:910px){
+    .menu-ft{
+        display: none;
+    }
+    .menu-ft-pc{
+        position: absolute;
+        float: right;
+        right: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-ft-pc li{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .menu-ft-pc ul li a{
+        font-family: greto;
+        letter-spacing: 2px;
+        color: #F0FFF0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-size: medium;
+        text-align: center;
+        transition: all 0.3s linear;
+    }
+    .menu-ft-pc ul li a:hover::after{
+        width: 100%;
+    }
+    .menu-ft-pc ul li a::after{
+        content: "";
+        width: 0%;
+        height: 5px;
+        border-radius: 10px;
+        left: 0;
+        right: 0;
+        position: relative;
+        overflow: hidden;
+        bottom: -10px;
+        background-color: #f57316;
+        transition: all 0.3s linear;
+    }
+    .promo{
+        width: 15%;
+    }
+    .footer-paragraph{
+        font-size: 10PX;
+    }
 }

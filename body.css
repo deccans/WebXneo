@@ -9,3 +9,33 @@ refer{color:
 body{
     background-color: #2e3138;
 }
+.loading img{
+    position: absolute;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.loading::after{
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: infinite spin 3s linear;
+    animation-name: clrtb;
+    z-index: -1;
+}

@@ -54,6 +54,7 @@ refer{color:
     flex-direction: row;
     transition: all 0.5s ease-in-out;
     overflow: hidden;
+    
 }
 .content-box::after{
     position: absolute;
@@ -68,6 +69,17 @@ refer{color:
 }
 .content-box:hover{
     transform: translate(0px, -15px);
+    
+    .icon-query{
+        transform: translate(0px, 150px )rotate(180deg);
+        transition: all 2s ease-in-out;
+;
+    }
+    .content-box::after{
+        content: "";
+        top: 0;
+        left: 0;
+    }
 }
 .heading-of-content-box{
     font-family: greto;
@@ -142,10 +154,11 @@ refer{color:
     right: 15px;
     bottom: 8px;
     z-index: 2;
+    transition: all 2s ease-in-out ;
     i{
         color: #F0FFF0;
         background-color: none;
-        border: 1px solid
+        border: px solid
         #F0FFF0;
         border-radius: 50%;
         width: 40px;
@@ -178,4 +191,83 @@ refer{color:
     background-color: #f57316;
     border-radius: 10px;
 
+}
+.promo{
+    position: fixed;
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0FFF0;
+    border-radius: 15px;
+    height: 45px;
+}
+.link-of-promo-email{
+    background-color: #f57316;
+    color: #F0FFF0;
+    padding: 5px;
+    width: 45%;
+    position: absolute;
+    left: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: greto;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    border-radius: 15px;
+}
+.social-media-on-promo{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.promo a{
+    text-decoration: none;
+
+}
+.link-of-social-media-promo{
+    text-decoration: none;
+}
+.footer{
+    width: 100%;
+    background-color: #0e0e105b;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.footer-paragraph{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: greto;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size:7px;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #F0FFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.webxneo-footer-style{
+    color: #f57316;
 }
