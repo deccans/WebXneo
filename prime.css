@@ -44,4 +44,6 @@ refer{color:
 }
 .unavailable-show img{
     width: 400px;
+    border-radius: 0px 60px 0px 0px;
+    border: 1px dashed #f57316;
 }
