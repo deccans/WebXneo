@@ -184,12 +184,11 @@ refer{color:
 }
 .search-box{
     position: absolute;
-    padding: 25px;
+    padding: 30px;
     background: none;
     border: 1px solid #f57316;
     box-shadow: 1px 1px 30px #f57316;
     border-radius: 10px;
-    transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
 .search-box:hover{
