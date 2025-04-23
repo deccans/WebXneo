@@ -47,3 +47,28 @@ refer{color:
     border-radius: 0px 60px 0px 0px;
     border: 1px dashed #f57316;
 }
+.discord-header{
+    position: absolute;
+    right: 160px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    background-color: 	#7289da;
+    height: 100%;
+}
+.discord-header i , h1{
+    transition: all 0.5s linear;
+}
+.discord-header i{
+    color: #F0FFF0;
+}
+.discord-header:hover {
+    background-color: #F0FFF0;
+
+i , h1 {
+    color: 	#7289da;}
+
+}

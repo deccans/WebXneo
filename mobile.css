@@ -3,7 +3,7 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
-@media (max-width:900px){
+@media (max-width:1200px){
     .logo-pc{
         visibility: hidden;
     }
@@ -26,8 +26,11 @@ refer{color:
     .version-of-patch-notes , .paragraph-of-patch-notes-pc{
         display: none;
     }
+    .discord-header a h1 {
+        display: none;
+    }
 }
-@media (min-width:910px){
+@media (min-width:1210px){
     .menu-ft{
         display: none;
     }
@@ -132,5 +135,48 @@ refer{color:
         width: 800px;
         left: 0;
         display: none;
+    }
+    .discord-header {
+        position: absolute;
+        left: 280px;
+        width: 220px;
+        transition: all 0.5s linear;
+        cursor: pointer;
+    }
+    .discord-header:hover {
+        background-color: #F0FFF0;
+
+    i , h1 {
+        color: 	#7289da;
+
+    }
+    }
+    .discord-header a h1{
+        font-family: greto;
+        font-size: 22px;
+        color: #F0FFF0;
+        right: 25px;
+        font-weight: lighter;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+        transition: all 0.5s linear;
+    }
+    .discord-header a i{
+        position: absolute;
+        left: 20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        transition: all 0.5s linear;
+
     }
 }
