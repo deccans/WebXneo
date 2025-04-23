@@ -3,6 +3,11 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
+input[type="search"] {
+    border: none;
+    outline: none;
+  }
+
 .unavailable-show{
     width: 100%;
     position: absolute;
@@ -56,19 +61,6 @@ refer{color:
     align-items: center;
     flex-direction: column;
     width: 60px;
-    background-color: 	#7289da;
+    background: none;
     height: 100%;
-}
-.discord-header i , h1{
-    transition: all 0.5s linear;
-}
-.discord-header i{
-    color: #F0FFF0;
-}
-.discord-header:hover {
-    background-color: #F0FFF0;
-
-i , h1 {
-    color: 	#7289da;}
-
 }

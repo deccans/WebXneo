@@ -3,7 +3,7 @@ refer{color:
     #F0FFF0
     #0E0E10
 }
-@media (max-width:1200px){
+@media (max-width:1299px){
     .logo-pc{
         visibility: hidden;
     }
@@ -29,8 +29,11 @@ refer{color:
     .discord-header a h1 {
         display: none;
     }
+    .discord-header a i{
+        color:#F0FFF0;
+    }
 }
-@media (min-width:1210px){
+@media (min-width:1300px){
     .menu-ft{
         display: none;
     }
@@ -142,6 +145,7 @@ refer{color:
         width: 220px;
         transition: all 0.5s linear;
         cursor: pointer;
+        background-color: #7289da;
     }
     .discord-header:hover {
         background-color: #F0FFF0;
@@ -165,6 +169,7 @@ refer{color:
         margin: auto;
         position: absolute;
         transition: all 0.5s linear;
+        
     }
     .discord-header a i{
         position: absolute;
@@ -177,6 +182,7 @@ refer{color:
         align-items: center;
         font-size: 40px;
         transition: all 0.5s linear;
+        color: #F0FFF0;
 
     }
 }
